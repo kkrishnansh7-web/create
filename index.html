@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Cards - Handmade Gift Cards</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <img src="logo-krish.jpeg" alt="Creative Cards" class="nav-logo" />
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#occasions">Occasions</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#order" class="nav-order-btn">Order a card</a></li>
+      </ul>
+      <button class="burger" id="burger">☰</button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">About</a>
+      <a href="#occasions">Occasions</a>
+      <a href="#how">How it works</a>
+      <a href="#order">Order a card</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">hi there </p>
+      <h1>Handmade cards<br>for the people<br>you actually care about.</h1>
+      <p class="hero-desc">
+        I'm a college student from Delhi who makes gift cards entirely by hand - no printers, no templates. 
+        Just paper, colours, and a lot of love for the people in your life.
+      </p>
+      <a href="#order" class="btn-main">Get your card made →</a>
+    </div>
+    <div class="hero-visual">
+      <div class="card-stack">
+        <div class="mock-card mc-back">
+          <span class="mc-hand">Happy Birthday! </span>
+        </div>
+        <div class="mock-card mc-front">
+          <img src="logo-krish.jpeg" alt="Creative Cards logo" class="mock-logo" />
+          <p class="mock-note">"Made just for you"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="container two-col">
+      <div class="col-cards">
+        <div class="collage-card cc1"> for Maa's bday</div>
+        <div class="collage-card cc2"> love note</div>
+        <div class="collage-card cc3"> farewell card</div>
+      </div>
+      <div class="col-text">
+        <span class="section-label">a little about me</span>
+        <h2>Just a college student who loves making things.</h2>
+        <p>Honestly, this started because I wanted to give my friend a birthday card that didn't feel like it came from a petrol pump counter. So I made one myself. She loved it. Her friends wanted one. And here we are.</p>
+        <p>Every single card is made by me - sketched, painted, cut, written by hand. It takes me 2-3 days per card because I actually care how it turns out.</p>
+        <div class="little-facts">
+          <div class="fact"><strong>50+</strong><span>cards delivered</span></div>
+          <div class="fact"><strong>100%</strong><span>by hand</span></div>
+          <div class="fact"><strong>0</strong><span>printers involved</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OCCASIONS -->
+  <section class="occasions-section" id="occasions">
+    <div class="container">
+      <span class="section-label">what I make</span>
+      <h2>Cards for every kind of moment.</h2>
+      <div class="occ-grid">
+        <div class="occ-item"><h3>Birthdays</h3><p>Because "HBD" on WhatsApp just doesn't feel the same.</p></div>
+        <div class="occ-item"><h3>Anniversaries</h3><p>Mark the date with something that'll actually be kept.</p></div>
+        <div class="occ-item occ-highlight"><h3>Love Notes</h3><p>Say the thing you've been meaning to say.</p></div>
+        <div class="occ-item"><h3>Festivals</h3><p>Diwali, Eid, Holi, Christmas - any occasion works.</p></div>
+        <div class="occ-item"><h3>Farewells</h3><p>Goodbyes are hard. Give them something to remember you by.</p></div>
+        <div class="occ-item"><h3>Thank You</h3><p>Gratitude feels different when it's written on paper.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-section" id="how">
+    <div class="container">
+      <span class="section-label">how it works</span>
+      <h2>Super simple, I promise.</h2>
+      <div class="steps">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <h3>You tell me what you need</h3>
+          <p>Fill the form below with the occasion, who it's for, and any details - an inside joke, a favourite colour, a memory.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <h3>I make it by hand</h3>
+          <p>I sketch and craft the card myself. Usually 2–3 days. I'll send a photo preview before anything is finalised.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <h3>It reaches you</h3>
+          <p>Local pickup in South New Delhi or I can ship it. You pay only after you're happy with the preview.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews-section">
+    <div class="container">
+      <span class="section-label">kind words</span>
+      <h2>What people have said.</h2>
+      <div class="reviews-grid">
+        <div class="review-card"><p>"My best friend literally cried."</p><span>— Riya S., Delhi</span></div>
+        <div class="review-card review-featured"><p>"It's still on the shelf."</p><span>— Arjun M., Noida</span></div>
+        <div class="review-card"><p>"The college doodle was perfect."</p><span>— Priya K., Faridabad</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section class="order-section" id="order">
+    <div class="container">
+      <div class="order-wrap">
+        <div class="order-left">
+          <span class="section-label">place an order</span>
+          <h2>Let's make your card.</h2>
+          <p>Fill this out and I'll get back to you within a few hours. Or just DM me.</p>
+          <div class="contact-links">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://wa.me" target="_blank">WhatsApp me</a>
+          </div>
+          <p class="pricing-note"> Pricing starts at <strong>₹80</strong>.</p>
+        </div>
+        <div class="order-right">
+          <form id="orderForm">
+            <div class="field">
+              <label for="fname">Your name</label>
+              <input type="text" id="fname" placeholder="e.g. Sneha" required />
+            </div>
+            <div class="field">
+              <label for="occasion">Occasion</label>
+              <select id="occasion" required>
+                <option value="" disabled selected>What's the card for?</option>
+                <option>Birthday</option>
+                <option>Anniversary</option>
+                <option>Love Note</option>
+                <option>Festival</option>
+                <option>Farewell</option>
+                <option>Thank You</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-main">Send Order</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const burger = document.getElementById('burger');
+    const navMobile = document.getElementById('navMobile');
+    burger.addEventListener('click', () => {
+      navMobile.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
